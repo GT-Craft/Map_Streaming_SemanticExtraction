@@ -1,0 +1,10 @@
+{
+    "base": "https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/",
+    "latitude": "33.741836",
+    "longitude": "-84.416501",
+    "zoom": "17",
+    "mapSize": "1500,1500",
+    "mapLayer": "Basemap",
+    "format": "png",
+    "mapMetadata": "0"
+}
