@@ -69,6 +69,8 @@ python elevation_visualizer.py
 ```
 
 #### 2. Training and validating segmentation models
+**We share the pre-trained models' weights in [this link](https://gtvault-my.sharepoint.com/:f:/g/personal/jheo33_gatech_edu/Ei14o8j-lTpIvsZNtQegs6cBPfoK2uv9Zltnxiy4SgIL9A?e=ks9jNj). You need to download them under `Map_Semantic_Extraction/pretrained_models`.**
+
 You dataset directory should have the following structure. For testing, you can put your own map image under `test` directory.
 ```
 YOUR_DATASET_PATH
