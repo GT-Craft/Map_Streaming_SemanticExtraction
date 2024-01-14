@@ -58,9 +58,6 @@ sympy==1.11.1
 threadpoolctl==3.2.0
 tifffile==2023.8.25
 timm==0.4.12
-torch==2.0.1+cu118
-torchaudio==2.0.2+cu118
-torchvision==0.15.2+cu118
 tqdm==4.66.1
 triton==2.0.0
 typeguard==3.0.2
@@ -68,3 +65,4 @@ typing_extensions==4.7.1
 tzdata==2023.3
 urllib3==1.26.13
 wheel==0.37.1
+pymap3d

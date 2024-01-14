@@ -26,10 +26,6 @@ I = Image.open(output)
 # plt.imshow(I)
 # plt.show()
 
-# enhanced_img = utils.contrast_img_file(output)
-# plt.imshow(enhanced_img)
-# plt.show()
-
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 m_helper = mutils.Massachusetts_Helper()
@@ -40,7 +36,7 @@ m_helper.initialize(utils.BUILDING_DIR)
 building_class_rgb_values = m_helper.select_classes(utils.BUILDING_CLASSES)
 
 ms_map_processor = mutils.Ms_Map_Processor()
-img_to_seg, preprocessed_img, _ = ms_map_processor.process_map_patch(output, road_class_rgb_values)
+img_to_seg, preprocessed_img, _ = ms_map_processor.process_map_patch(output, road_class_rgb_values, True)
 padded_size = list(preprocessed_img.shape)[1]
 pad_size = (padded_size - map_size[0]) // 2
 

@@ -165,7 +165,6 @@ building_models
 road_results
 building_results
 MapSessionConfig.txt
-*.png
 temp.json
 sample_figures/
 results/elevation.mp4

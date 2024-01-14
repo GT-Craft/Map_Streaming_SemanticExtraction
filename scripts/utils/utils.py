@@ -7,8 +7,8 @@ import segmentation_models_pytorch as smp
 import numpy as np
 
 EPOCHS = [3, 6, 9, 12, 15]
-THRESHOLDS = [0.3, 0.5, 0.7]
-LRS = [0.00008, 0.001]
+THRESHOLDS = [0.5]
+LRS = [0.00008]
 # LOSSES = {'cross_entropy_loss': smp.utils.losses.CrossEntropyLoss(), 'dice_loss': smp.utils.losses.DiceLoss()}
 LOSSES = {'dice_loss': smp.utils.losses.DiceLoss()}
 ROAD_DIR = "/home/jin/mnt/Data/Massachusett_Dataset/Roads/"
